@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.stud.a7777.SettingActivity"
+   >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="CREF(pF)"
+                android:id="@+id/textView2"
+                android:layout_column="0"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CREF＿spinner"
+                android:layout_column="4" />
+
+            <TextView
+                android:text="000"
+                android:id="@+id/CREF_txv"
+                android:layout_column="5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    "
+                android:id="@+id/textView16"
+                android:layout_column="6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="MODE_R"
+                android:id="@+id/textView10"
+                android:layout_column="9"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/MODE_R＿spinner"
+                android:layout_column="10" />
+
+            <TextView
+                android:text="0"
+                android:id="@+id/MODE_R_txv"
+                android:layout_column="11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    "
+                android:id="@+id/textView4"
+                android:layout_column="12"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="CSEN"
+                android:id="@+id/textView14"
+                android:layout_column="14"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CSEN＿spinner"
+                android:layout_column="15" />
+
+            <TextView
+                android:text="000"
+                android:id="@+id/CSEN_txv"
+                android:layout_column="16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="CSUB(pF)"
+                android:id="@+id/textView6"
+                android:layout_column="0"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CSUB_spinner"
+                android:layout_column="4" />
+
+            <TextView
+                android:text="000"
+                android:id="@+id/CSUB_txv"
+                android:layout_column="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="EVA_VREF"
+                android:id="@+id/textView11"
+                android:layout_column="9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="0"
+                android:id="@+id/textView22"
+                android:layout_column="11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="ISEN"
+                android:id="@+id/textView15"
+                android:layout_column="14"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ISEN＿spinner"
+                android:layout_column="15" />
+
+            <TextView
+                android:text="00"
+                android:id="@+id/ISEN_txv"
+                android:layout_column="16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="VREF(V)"
+                android:id="@+id/textView7"
+                android:layout_column="0"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/VREF＿spinner"
+                android:layout_column="4" />
+
+            <TextView
+                android:text="0000"
+                android:id="@+id/VREF_txv"
+                android:layout_column="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="EVB_VREF"
+                android:id="@+id/textView12"
+                android:layout_column="9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="0"
+                android:id="@+id/textView23"
+                android:layout_column="11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="Filter"
+                android:id="@+id/textView19"
+                android:layout_column="14"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Filter_spinner"
+                android:layout_column="15" />
+
+            <TextView
+                android:text="0"
+                android:id="@+id/Filter_txv"
+                android:layout_column="16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="VINA(V)"
+                android:id="@+id/textView8"
+                android:layout_column="0"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/VINA＿spinner"
+                android:layout_column="4" />
+
+            <TextView
+                android:text="0000"
+                android:id="@+id/VINA_txv"
+                android:layout_column="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="ILP"
+                android:id="@+id/textView3"
+                android:layout_column="9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="0"
+                android:id="@+id/textView24"
+                android:layout_column="11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="Window"
+                android:id="@+id/textView21"
+                android:layout_column="14"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Windoe_spinner"
+                android:layout_column="15" />
+
+            <TextView
+                android:text="0000"
+                android:id="@+id/Window_txv"
+                android:layout_column="16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="VINB(V)"
+                android:id="@+id/textView9"
+                android:layout_column="0"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/VINB＿spinner"
+                android:layout_column="4" />
+
+            <TextView
+                android:text="0000"
+                android:id="@+id/VINB_txv"
+                android:layout_column="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="CINT"
+                android:id="@+id/textView13"
+                android:layout_column="9"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CINT＿spinner"
+                android:layout_column="10" />
+
+            <TextView
+                android:text="000"
+                android:id="@+id/CINT_txv"
+                android:layout_column="11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <TextView
+                android:text="CLK"
+                android:id="@+id/textView25"
+                android:layout_column="14"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CLK_spinner"
+                android:layout_column="15" />
+
+            <TextView
+                android:text="00"
+                android:id="@+id/CLK_txv"
+                android:layout_column="16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    "
+                android:id="@+id/textView"
+                android:layout_column="0"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="command"
+                android:id="@+id/textView5"
+                android:layout_column="0"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/command_txv"
+        android:textSize="20sp"
+        android:layout_column="3"
+        android:layout_below="@+id/tableLayout"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">7777</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="cref_csen">
+        <item>0.84</item>
+        <item>1.59</item>
+        <item>2.337</item>
+        <item>3.085</item>
+        <item>3.832</item>
+        <item>4.579</item>
+        <item>5.326</item>
+        <item>6.073</item>
+    </string-array>
+    <string-array name="csub">
+        <item>0.339</item>
+        <item>4.076</item>
+        <item>7.813</item>
+        <item>11.553</item>
+        <item>15.283</item>
+        <item>19.023</item>
+        <item>22.763</item>
+        <item>26.493</item>
+    </string-array>
+    <string-array name="vref_vina_vinb">
+        <item>0.25</item>
+        <item>0.30</item>
+        <item>0.35</item>
+        <item>0.40</item>
+        <item>0.45</item>
+        <item>0.50</item>
+        <item>0.55</item>
+        <item>0.60</item>
+        <item>0.65</item>
+        <item>0.70</item>
+        <item>0.75</item>
+        <item>0.80</item>
+        <item>0.85</item>
+        <item>0.90</item>
+        <item>0.95</item>
+        <item>1.00</item>
+    </string-array>
+    <string-array name="mode_r">
+        <item>CDC</item>
+        <item>RDC</item>
+    </string-array>
+    <string-array name="isen_sel">
+    <item>1x</item>
+    <item>2x</item>
+    <item>3x</item>
+    <item>4x</item>
+</string-array>
+    <string-array name="filter">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="clk">
+        <item>20</item>
+        <item>10</item>
+        <item>5</item>
+        <item>2.5</item>
+    </string-array>
+    <string-array name="window">
+        <item>32</item>
+        <item>64</item>
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+    </string-array>
+    <string-array name="cint">
+        <item>4.68</item>
+        <item>6.91</item>
+        <item>9.17</item>
+        <item>11.4</item>
+        <item>13.6</item>
+        <item>15.8</item>
+        <item>18.1</item>
+        <item>20.3</item>
+    </string-array>
+</resources>
