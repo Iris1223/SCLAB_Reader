@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
                             Snackbar.make(view, "Reader Connecting", Snackbar.LENGTH_LONG)
                                     .setAction("Action", null).show();
 
-                            //@Todo: Connect to the reader
+                            //@Todo: Connect to the reader -> done
 
                             if(deviceConnected == false) {
                                 Toast.makeText(context, "IOP Reader not connected", Toast.LENGTH_LONG).show();
@@ -179,6 +179,7 @@ public class MainActivity extends AppCompatActivity {
                             long[] pattern_i = { 0, 100, 0 };
                             vibrator.vibrate(pattern_i, -1);
 
+                            doInventory();
 
 
 
@@ -311,11 +312,14 @@ public class MainActivity extends AppCompatActivity {
                     k=k+1;
                     Log.i("Create Android", "k"+k);
                     //@Todo: Place the get sensor value code here
-                    java.util.Random rnd = new java.util.Random(
-                            System.currentTimeMillis()); // 取亂數
-                    float mInput = new Float(rnd.nextInt(1000) + 0) / 100; // 取0~10小數兩位亂數值
-                    double reading = (double) mInput; // mInput偵測到的接收值，本程式使用亂數模擬。
-                    sleep(1000);//如果不加這行第一個值得時間會是0這樣畫圖會出問題，不過學長取值需要時間所以之後可以不用這行~
+
+                    int reading = getTagValue(TARGET_TAG_ID);
+//
+//                    java.util.Random rnd = new java.util.Random(
+//                            System.currentTimeMillis()); // 取亂數
+//                    float mInput = new Float(rnd.nextInt(1000) + 0) / 100; // 取0~10小數兩位亂數值
+//                    double reading = (double) mInput; // mInput偵測到的接收值，本程式使用亂數模擬。
+                    sleep(100);//如果不加這行第一個值得時間會是0這樣畫圖會出問題，不過學長取值需要時間所以之後可以不用這行~
 
                     y[k]=reading;
                     x[k]=t;//當下的時間
